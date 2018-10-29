@@ -1,0 +1,53 @@
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body, html {
+    height: 100%
+}
+
+.bgimg {
+    /* Background image */
+    background-image: url('https://lh3.googleusercontent.com/PzOtPFu3MikZ3VBKurIWbOKoD0x3IwxXW6R3cYe_43itGhhMqABvd89FaQsx0ImcXCnSjHOaPxqlWd9Gt-E4O91hUbOLLKnezmpHVET7qiryexMXPeEV5mU2bAvYCHUkDCxq0OpE5SUI2MA2y0bEKPi6IwKDauC79FStgKJBbfblPe1h2Q3tS-gYL4ybSB6haCju9KiBTciAzPzCn88TEgW4qT4DsTybil4DMA5OJdIcyFxIYPp0oOQvEmGE5dAr1SxNEPz7l75pBECW7tDiI0x2jR8YymGSepmmIXctE7uJVz_6SrCXQBh1totg1hALCbJGRRcsJA_xo2yFpQiT7lFUodg344htSpLvbTxtX6EkAzmGXaJ42tk3rsfA1T7JhkmcJ-BDWcxiin3jZY_Z7Mued6LVywecsZ063qAOcm8AHRLVLNrpRHGOOHMaeFJPog-5M4g47PgWMGo37NK97iXsaEvleYVQs7DkwJ2ibPFGopRuzItQP69wth36_Qk1ukNMP0sI5Vn1XQvEe31GeGh0o9xYlT2ipofkeGSGaAQPrby3SaxljlmyOKIhFV_dhtaM7ZsIroeUcpKGKRM_i0UVS9AZ-YPjNO9UuUbXmkhFTujsRfUnfCpxNH5Q8eAgPVlOSUCDQF25QFaayg8FliYFn2iXk0dYD08wKweCyEcNDQseqBiGe1RRfKf1TEM_6Jhcr6S7WAw2xpPkSw=w800-h616-no');
+    /* Full-screen */
+    height: 100%;
+    /* Center the background image */
+    background-position: center;
+    /* Scale and zoom in the image */
+    background-size: cover;
+    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+    position: relative;
+    /* Add a white text color to all elements inside the .bgimg container */
+    color: white;
+    /* Add a font */
+    font-family: "Courier New", Courier, monospace;
+    /* Set the font-size to 25 pixels */
+    font-size: 25px;
+}
+
+/* Position text in the top-left corner */
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+/* Position text in the middle */
+.middle {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 45px;
+}
+
+/* Style the <hr> element */
+hr {
+    margin: auto;
+    width: 40%;
+}
